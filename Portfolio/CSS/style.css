@@ -82,6 +82,10 @@ strong { font-weight: var(--fw-bold) }
     font-weight: var(--fw-bold);
     transition: transform 200ms ease-in-out;
 }
+
+.btn:hover {
+    transform: scale(1.1);
+}
     /*Typography*/
 h1,
 h2,
@@ -148,7 +152,7 @@ header {
     right: 0;
     z-index: 100;
 
-    transform: translate(100%);
+    transform: translateX(100%);
     transition: transform 250ms cubic-bezier(.5, 0, .5, 1);
 }
 
@@ -284,7 +288,7 @@ header {
     background-color: var(--clr-dark);
     background-image: url(../img/services-bg.jpg);
     background-size: cover;
-    background-blend-mode: multiply;
+    /*background-blend-mode: multiply; */
     color: var(--clr-light);
     text-align: center;
 }
