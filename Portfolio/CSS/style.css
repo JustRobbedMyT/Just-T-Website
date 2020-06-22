@@ -208,7 +208,7 @@ header {
 
 
 .nav-open .hamburger::after {
-    opacity: 0;
+    opacity: 1;
 }
 
 
